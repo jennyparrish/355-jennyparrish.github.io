@@ -12,10 +12,11 @@
     <link rel="stylesheet" href="styles.css" media="all">
     <style>
         #header-list {
-            list-style-type: none;
+            list-style: none;
             padding: 0;
         }
 
+        /* Header section */
         header {
             position: relative;
             min-height: 300px;
@@ -23,13 +24,29 @@
             background-color: #f9f9f9;
         }
 
-        h3 {
-            text-align: justify;
-            margin-right: 420px; /* clears space for 400px image + 20px */
+             /* Ensure text does not overlap with the image */
+        h1,
+        h3,
+        h4,
+        p,
+        ul {
+            position: relative;
+            z-index: 1;
+            max-width: 60%; /* Keeps texts from hitting the image */
             word-break: break-word;
+            text-align: justify;
+        }
+        
+        /* Titles and headings */
+        h2 {
+            margin: 20px;
         }
 
-        img {
+        h3 {
+            margin-right: 420px; /* clears space for 400px image + 20px */
+        }
+
+        header img {
             position: absolute;
             top: 20px;
             right: 20px;
@@ -40,36 +57,20 @@
             z-index: 2;
         }
 
-        /* Ensure text does not overlap with the image */
-        h1,
-        p,
-        h3,
-        h4,
-        ul {
-            position: relative;
-            z-index: 1;
-            max-width: 60%;
-            /* Keeps texts from hitting the image */
-        }
-
-        h2 {
-            margin-top: 20px;
-            margin-left: 20px;
-        }
-
-        main ol {
-            padding-right: 1.0in;
-            margin-right: 0;
+        main ol,
+        main ul {
+            text-align: justify;
+            padding-right: 2in;
             word-break: break-word;
         }
 
-        main ol li {
-            margin-bottom: 12px;
-            line-height: 1.5;
+        main ol {
+            padding-right: 2in;
+            margin-right: 0;
         }
 
-        main ul li {
-            line-height: 1.5;
+        main li {
+            margin-bottom: 12px;
         }
 
         footer {
