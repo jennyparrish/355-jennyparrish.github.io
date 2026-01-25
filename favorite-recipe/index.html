@@ -16,10 +16,29 @@
             padding: 0;
         }
 
+        header {
+            position: relative;
+            min-height: 300px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
         img {
-            display: block;
-            margin: 10px 0;
-            align-items: right;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 400px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            z-index: 2;
+        }
+
+        /* Ensure text does not overlap with the image */
+        h1, p, h4, ul {
+            position: relative;
+            z-index: 1;
+            max-width: 60%; /* Keeps texts from hitting the image */
         }
 	</style>
 
@@ -31,8 +50,8 @@
         <h1>Easy Chickpea Coconut Curry</h1>
         <img src="curry.jpg" alt="A bowl of chickpea coconut curry over white rice." width="400">
         <p>A delicious and savory meal made in under 45 minutes! Can easily be customized to suit individual tastes. Try substituting or adding more vegetables, like shredded carrots or thin-sliced red bell pepper! We love it over basmati rice, but it's great on potatoes and pasta, as well!</p>
-        <h4 id="header-list">Main Course (Vegan)<h4>
-        <ul>
+        <h4>Main Course (Vegan)<h4>
+        <ul id="header-list">
             <li>Prep Time: 10 minutes</li>
             <li>Cook Time: 30 minutes</li>
             <li>Total Time: 40 Minutes</li>
