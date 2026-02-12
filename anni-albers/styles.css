@@ -1,3 +1,9 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	font-family: 'Times New Roman', serif;
 	font-size: 1.0em;
@@ -64,6 +70,7 @@ blockquote {
 	text-indent: hang(1.5em);
 }
 
+/* Second Layout (index2.html) */
 body#secondLayout {
 	line-height: 1.5em;
 	display: flex;
@@ -80,7 +87,7 @@ body#secondLayout header {
 
 body#secondLayout h1 {
 	font-size: 3em;
-	font-weight: normal;
+	font-weight: 700;
 	margin-top: 0;
 	margin-bottom: 0.5em;
 }
@@ -89,6 +96,17 @@ body#secondLayout h3 {
 	font-size: 1.5em;
 	margin-top: 0;
 	margin-bottom: 0.5em;
+	font-weight: 400;
+}
+
+body#secondLayout main {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	max-width: 900px;
+	margin: 0 auto;
+	gap: 20px;
+	padding: 0 2rem 3rem;
 }
 
 body#secondLayout p {
