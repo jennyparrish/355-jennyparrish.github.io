@@ -56,14 +56,9 @@ blockquote {
 }
 
 .bibliography li{
-	width: 80%;
+	width: 60%;
 	margin-left: auto;
 	list-style: none;
 	padding-left: none;
 	margin: 0;
-}
-
-.bibliiography li {
-	text-indent: -1em;
-	padding-left: 1em;
 }
