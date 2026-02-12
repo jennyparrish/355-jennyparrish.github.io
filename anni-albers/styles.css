@@ -64,6 +64,7 @@ h4 {
 }
 
 .bibliography li {
+	width: 100%;
 	font-size: 0.9em;
 	list-style: none;
 	line-height: 1.5em;
@@ -148,7 +149,7 @@ body#secondLayout h4 {
 }
 
 body#secondLayout .bibliography {
-	width: 80%;
+	width: 100%;
 	margin-bottom: 1.5rem;
 	list-style: none;
 	padding: 2rem;
