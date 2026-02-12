@@ -129,3 +129,9 @@ body#secondLayout blockquote {
 	font-style: italic;
 }
 
+body#secondLayout h4 {
+	font-size: 1.2em;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	display: inline-block;
+}
