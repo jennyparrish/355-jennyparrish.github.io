@@ -55,7 +55,7 @@ blockquote {
 	font-weight: bold;
 }
 
-.bibliography {
+.bibliography li{
 	width: 80%;
 	margin-left: auto;
 	list-style: none;
