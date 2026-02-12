@@ -55,6 +55,7 @@ blockquote {
 	padding: 2rem 3rem;
 	font-style: italic;
 }
+
 h4 {
 	font-size: 1.2em;
 	margin: 3rem 0 1.5rem 0;
@@ -63,29 +64,32 @@ h4 {
 }
 
 #works-cited {
-	font-size: 1.2em;
-	margin-top: 2em;
-	margin-bottom: 1em;
-	font-weight: normal;
+	font-size: 1em;
+	margin-top: 4em;
+	padding-top: 2rem;
 }
 
 .bibliography li {
-	width: 100%;
+	/* width: 100%; */
 	font-size: 0.9em;
 	list-style: none;
 	line-height: 1.5em;
 	padding: 0.5em 0;
 	text-indent: -1.5em;
-	font-size: 0.95em;
 }
 
+footer {
+	grid-column: 1 / -1;
+	grid-row: 3;
+	padding: 2rem 1rem;
+	text-align: center;
+}
 
 footer p {
-	text-align: center;
+	/* text-align: center; */
 	font-size: 0.8em;
 	margin-top: 2em;
 	margin-bottom: 1em;
-	font-family: 'Times New Roman', serif;
 }
 
 /* Second Layout (index2.html) */
