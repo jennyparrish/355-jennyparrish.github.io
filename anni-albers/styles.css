@@ -5,11 +5,6 @@ body {
 	margin: 0;
 }
 
-body#secondLayout {
-	display: flex;
-	flex-direction: column;
-}
-
 h1 {
 	font-size: 2.5em;
 	line-height: 1.2em;
@@ -68,3 +63,51 @@ blockquote {
 	margin: 0;
 	text-indent: hang(1.5em);
 }
+
+body#secondLayout {
+	line-height: 1.5em;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	padding: 40px;
+	background: linear-gradient(to bottom, #fff, #f0f8ff)
+}
+
+body#secondLayout header {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+body#secondLayout h1 {
+	font-size: 3em;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+body#secondLayout h3 {
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+body#secondLayout p {
+	font-size: 1.2em;
+	margin-bottom: 1.5em;
+	text-align: justify;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	hyphens: auto;
+}
+
+body#secondLayout blockquote {
+	position: relative;
+	padding: 2rem 3rem;
+	font-size: 1.2em;
+	margin: 2em auto;
+	text-align: center;
+	width: 70%;
+	font-style: italic;
+}
+
