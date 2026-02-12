@@ -100,7 +100,7 @@ body#secondLayout h3 {
 }
 
 body#secondLayout main {
-	flex: 1;
+	flex: 3;
 	display: flex;
 	flex-direction: column;
 	max-width: 900px;
