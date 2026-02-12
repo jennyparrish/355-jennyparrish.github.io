@@ -5,6 +5,11 @@ body {
 	margin: 0;
 }
 
+body#secondLayout {
+	display: flex;
+	flex-direction: column;
+}
+
 h1 {
 	font-size: 2.5em;
 	line-height: 1.2em;
