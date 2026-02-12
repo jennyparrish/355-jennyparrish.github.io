@@ -86,7 +86,7 @@ footer {
 }
 
 footer p {
-	/* text-align: center; */
+	text-align: center;
 	font-size: 0.8em;
 	margin-top: 2em;
 	margin-bottom: 1em;
