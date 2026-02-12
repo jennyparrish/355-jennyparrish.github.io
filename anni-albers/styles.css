@@ -70,7 +70,7 @@ blockquote {
 	text-indent: hang(1.5em);
 }
 
-footer {
+footer p {
 	text-align: center;
 	font-size: 0.8em;
 	margin-top: 2em;
@@ -160,4 +160,12 @@ body#secondLayout #works-cited .bibliography {
 	flex-direction: column;
 	gap: 0.5rem;
 	margin-top: 1.5rem;
+}
+
+body#secondLayout footer p {
+	text-align: center;
+	font-size: 0.8em;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	font-family: 'Times New Roman', serif;
 }
