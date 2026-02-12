@@ -70,6 +70,14 @@ blockquote {
 	text-indent: hang(1.5em);
 }
 
+footer {
+	text-align: center;
+	font-size: 0.8em;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	font-family: 'Times New Roman', serif;
+}
+
 /* Second Layout (index2.html) */
 body#secondLayout {
 	line-height: 1.5em;
