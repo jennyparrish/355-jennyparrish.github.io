@@ -14,7 +14,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
     padding: 20px;
     height: 100vh;
@@ -36,7 +35,12 @@ body::before {
     z-index: -1;    /* to keep the photo behind all content */
 }
 
-header, section {
+header {
+    margin: 10px;
+    
+}
+
+section {
     background: rgba(0, 0, 0, 0.5); /* semi-transparent background for better readability */
     padding: 20px;
     border-radius: 10px;
