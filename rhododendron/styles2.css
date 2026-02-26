@@ -4,8 +4,13 @@
     padding: 0;
 }
 
-body {
+#rhodo1 {
+    height: 50vh;
     width: 100vw;
+}
+
+body {
+  /*  width: 100vw;
     height: 100vh;
     overflow: scroll;
     background-image: url("/rhododendron/rhodo2.jpeg");
@@ -17,5 +22,5 @@ body {
     inset: 0;
     position: absolute;
     border: 13px solid #ffcaf1;
-    border-radius: 20px;
+    border-radius: 20px;*/
 }
