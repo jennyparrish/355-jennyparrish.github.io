@@ -37,10 +37,6 @@ header {
     color: #180012;
 }
 
-header h2 {
-
-}
-
 section {
     font-size: 1.5em;
     background: rgba(255, 86, 238, 0.40); /* semi-transparent background for better readability */
