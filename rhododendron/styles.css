@@ -11,6 +11,7 @@ body {
     width: 100vw;
     box-sizing: border-box;
     border: 13px solid #ffcaf1;
+    position: fixed;
 
     /* set up flex layout for centering */
     display: flex;
@@ -37,7 +38,7 @@ header {
 }
 
 section {
-    font-size: medium;
+    font-size: 1.2em;
     background: rgba(255, 86, 238, 0.40); /* semi-transparent background for better readability */
     padding: 20px;
     border-radius: 10px;
