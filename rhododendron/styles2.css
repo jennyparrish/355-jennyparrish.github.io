@@ -8,15 +8,12 @@
     <img id="rhodo2" alt="" src="/rhododendron/rhodo2.jpeg"
     <img id="rhodo3" alt="" src="/rhododendron/rhodo3.jpeg"
 */
-body {
-    width: 100vw;
-    height: 100vh;
-    background-image: url("/rhododendron/rhodo2.jpeg");
+#flowerbkgd {
+    background-image: url("/rhododendron/rhodo1.jpeg");
     background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-position: center;
+    height: 100vh;
+    width: auto;
     padding: 20px;
-    border-radius: 20px;
     background-color: #ffcaf1;
 }
