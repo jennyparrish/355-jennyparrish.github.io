@@ -33,6 +33,7 @@ body {
 
 header {
     background: rgba(255, 86, 238, 0.50);
+    width: 90vw;
 }
 
 section {
