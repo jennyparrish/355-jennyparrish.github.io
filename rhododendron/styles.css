@@ -16,7 +16,7 @@ body {
     /* set up flex layout for centering */
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     z-index: -1;
 }
 
@@ -38,7 +38,7 @@ header {
 }
 
 section {
-    font-size: 1.2em;
+    font-size: 2em;
     background: rgba(255, 86, 238, 0.40); /* semi-transparent background for better readability */
     padding: 20px;
     border-radius: 10px;
