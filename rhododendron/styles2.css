@@ -9,6 +9,7 @@ body {
     border-radius: 20px;
     background-image: url("/rhododendron/rhodo2.jpeg");
     background-size: cover;
+    position-anchor: initial;
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
