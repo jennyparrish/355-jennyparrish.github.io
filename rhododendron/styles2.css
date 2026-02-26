@@ -7,7 +7,7 @@
 body {
     margin: 0;
     height: 100vh;
-    overflow: hidden;
+    overflow: scroll;
     background-image: url("/rhododendron/rhodo2.jpeg");
     background-size: cover;
     background-position: center center;
