@@ -15,7 +15,7 @@ body {
     background-attachment: fixed;
 
     inset: 0;
-   /* position: absolute;*/
+    position: absolute;
     border: 13px solid #ffcaf1;
     border-radius: 20px;
 }
