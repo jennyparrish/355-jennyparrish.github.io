@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    overflow: auto;
     z-index: -1;
 }
 
