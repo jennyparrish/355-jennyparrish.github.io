@@ -24,7 +24,7 @@ h1#banner {
     color: #180012;
     padding: 20px;
     text-align: center;
-    background: rgba(255, 86, 238, 0.40);
+    background-color: rgba(255, 86, 238, 0.40);
     margin: 20px;
     border-radius: 10px;
 }
