@@ -29,7 +29,7 @@ header {
     grid-area: header;
 }
 
-header h1 {
+#banner {
     text-align: center;
     font-family: "Playfair Display", "Didot", "Bodoni MT", "Times New Roman", serif;
     font-size: 100px;
