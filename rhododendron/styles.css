@@ -47,6 +47,7 @@ section {
     border-radius: 10px;
     max-width: auto;
     margin: 20px;
+    grid-area: section;
 }
 
 p {
@@ -63,4 +64,5 @@ footer {
     background: rgba(255, 86, 238, 0.967); /* semi-transparent background for better readability */
     border-radius: 10px;
     margin: 20px;
+    grid-area: footer;
 }
