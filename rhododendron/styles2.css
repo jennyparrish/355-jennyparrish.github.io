@@ -41,18 +41,18 @@ section {
     background: rgba(255, 86, 238, 0.40); /* semi-transparent background for better readability */
     padding: 20px;
     border-radius: 10px;
-    margin: 20px;
+    margin: 0;
 }
 
 p {
     margin: 10px 0;
-    line-height: 1.5;
+    line-height: 1.4;
     text-justify: left;
 }
 
 #sec3 {
-    background-image: /rhododendron/rhodo3.jpeg;
-    width: 30vw;
+    background-image: url("/rhododendron/rhodo3.jpeg");
+    width: 50vw;
     height: auto;
     border: 2px solid #180012;
     padding: 20px;
