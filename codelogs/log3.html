@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Log 3: CSS Media Queries</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<header>
+    <h1>Code Log 3: CSS Media Queries</h1>
+</header>
+<main>
+    <section>
+        <h2>Introduction to CSS Media Queries</h2>
+        <p>CSS Media Queries are a powerful tool for creating responsive web designs. They allow developers to apply different styles based on the characteristics of the device, such as screen width, height, orientation, and resolution. This enables websites to adapt their layout and appearance to provide an optimal user experience across a wide range of devices, from desktops to smartphones.</p>
+    </section>
+    <section>
+        <h2>Basic Syntax of Media Queries</h2>
+        <p>The basic syntax of a CSS media query is as follows:</p>
+        <pre>@media media-type and (condition) {
+    /* CSS rules go here */
+}</pre>
+        <p>Where <code>media-type</code> can be <code>all</code>, <code>screen</code>, <code>print</code>, etc., and <code>condition</code> specifies the criteria for applying the styles, such as <code>max-width</code>, <code>min-width</code>, <code>orientation</code>, etc.</p>
+    </section>
+    <section>
+        <h2>Examples of Media Queries</h2>
+        <p>Here are some examples of media queries:</p>
+        <pre>@media screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}</pre>
+        <p>This media query applies a light blue background color to the body when the screen width is 600 pixels or less.</p>
+        <pre>@media screen and (min-width: 601px) {
+    body {
+        background-color: lightgreen;
+    }
+}</pre>
+        <p>This media query applies a light green background color to the body when the screen width is 601 pixels or more.</p>
+    </section>
+    <section>
+        <h2>Combining Multiple Conditions</h2>
+        <p>You can also combine multiple conditions in a media query using logical operators like <code>and</code>, <code>or</code>, and <code>not</code>. For example:</p>
+        <pre>@media screen and (min-width: 600px) and (orientation: landscape) {
+    body {
+        background-color: lightcoral;
+    }
+}</pre>
+        <p>This media query applies a light coral background color to the body when the screen width is 600 pixels or more and the device is in landscape orientation.</p>
+    </section>
+    <section>
+        <h2>Conclusion</h2>
+        <p>CSS Media Queries are essential for creating responsive web designs that provide a seamless user experience across different devices. By using media queries, developers can ensure that their websites look great and function well on any screen size, making them more accessible and user-friendly.</p>
+    </section>
+</main>
+</body>
+        
+
+</html>
