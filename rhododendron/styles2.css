@@ -31,16 +31,17 @@ h1#banner {
     color: #180012;
     padding: 20px;
     text-align: center;
-    background-color: rgba(205, 205, 205, 0.74);
-    margin: 0;
+    background-color: rgba(205, 205, 205, 0.64);
+    margin: 20px;
     border-radius: 10px;
 }
 
 section {
     font-size: 1.3em;
     background: rgba(255, 86, 238, 0.40); /* semi-transparent background for better readability */
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
+    margin: 20px;
 }
 
 p {
@@ -49,8 +50,7 @@ p {
     text-justify: left;
 }
 
-#sec3 {
-    background-image: url("/rhododendron/rhodo3.jpeg");
+#rhodo3 {
     width: 50vw;
     height: auto;
     border: 2px solid #180012;
