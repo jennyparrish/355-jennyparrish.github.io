@@ -37,7 +37,7 @@ header {
 }
 
 section {
-    background: rgba(255, 86, 238, 0.50); /* semi-transparent background for better readability */
+    background: rgba(255, 86, 238, 0.30); /* semi-transparent background for better readability */
     padding: 20px;
     border-radius: 10px;
     max-width: auto;
@@ -52,7 +52,7 @@ p {
 
 footer {
     width: 100vw;
-    height: 30px;
+   /* height: 30px;*/
     text-align: center;
     padding: 10px;
     background: rgba(255, 86, 238, 0.967); /* semi-transparent background for better readability */
