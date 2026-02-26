@@ -27,12 +27,12 @@ header {
 
 h1#banner {
     font-family: "Playfair Display", "Didot", "Bodoni MT", "Times New Roman", serif;
-    font-size: 3.5em;
+    font-size: 4em;
     color: #180012;
     padding: 20px;
     text-align: center;
     background-color: rgba(205, 205, 205, 0.74);
-    margin: 20px;
+    margin: 0;
     border-radius: 10px;
 }
 
