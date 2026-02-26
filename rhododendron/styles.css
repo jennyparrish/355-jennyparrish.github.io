@@ -14,9 +14,14 @@ body {
 
     /* set up flex layout for centering */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     z-index: -1;
+}
+
+header {
+    background: rgba(255, 86, 238, 0.50);
+    width: 100vw;
 }
 
 #banner {
@@ -29,11 +34,6 @@ body {
     font-size: 100px;
     /* text-transform: uppercase; */ /* Optional: make text uppercase */
     color: #180012;
-}
-
-header {
-    background: rgba(255, 86, 238, 0.50);
-    width: 90vw;
 }
 
 section {
