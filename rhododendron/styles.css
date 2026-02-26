@@ -14,7 +14,8 @@ body {
 
     /* set up flex layout for centering */
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     z-index: -1;
 }
 
