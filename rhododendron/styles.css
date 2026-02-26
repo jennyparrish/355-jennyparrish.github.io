@@ -47,7 +47,7 @@ header {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* subtle shadow for better readability */
 }
 
-section {
+.banner,section {
     background: rgba(0, 0, 0, 0.5); /* semi-transparent background for better readability */
     padding: 20px;
     border-radius: 10px;
