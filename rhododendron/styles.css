@@ -52,6 +52,7 @@ p {
 
 footer {
     width: 100vw;
+    height: 30px;
     text-align: center;
     padding: 10px;
     background: rgba(255, 86, 238, 0.967); /* semi-transparent background for better readability */
