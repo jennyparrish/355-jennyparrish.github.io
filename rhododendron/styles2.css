@@ -13,7 +13,7 @@
     background-size: cover;
     background-position: center center;
     height: auto;
-    width: 95vw;
+    width: 90%;
     background-attachment: fixed;
     background-color: #ffcaf1;
 }
@@ -41,7 +41,6 @@ section {
     background: rgba(255, 86, 238, 0.40); /* semi-transparent background for better readability */
     padding: 20px;
     border-radius: 10px;
-    margin: 0;
 }
 
 p {
