@@ -22,7 +22,7 @@ body {
     margin: 0;
     text-align: center;
     width: 100vw;
-    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    font-family: "Playfair Display", "Didot", "Bodoni MT", "Times New Roman", serif;
     text-decoration:darkolivegreen;
     font-size: 100px;
     /* text-transform: uppercase; */ /* Optional: make text uppercase */
@@ -30,7 +30,7 @@ body {
 }
 
 header, section {
-    background: rgba(255, 86, 238, 0.967); /* semi-transparent background for better readability */
+    background: rgba(255, 86, 238, 0.50); /* semi-transparent background for better readability */
     padding: 20px;
     border-radius: 10px;
     max-width: auto;
