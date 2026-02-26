@@ -5,14 +5,14 @@
 }
 
 body {
-    border: 13px solid #ffcaf1;
-    border-radius: 20px;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
     background-image: url("/rhododendron/rhodo2.jpeg");
     background-size: cover;
-    position-anchor: initial;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-    display: flex; 
+    background-attachment: fixed;
+    border: 13px solid #ffcaf1;
+    border-radius: 20px;
 }
