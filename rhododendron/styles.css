@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-html, body {
-    height: 100%;
-}
-
 body {
     background-image: url("/rhododendron/rhodo1.jpeg");
     background-size: cover;
@@ -21,19 +17,18 @@ body {
     align-items: center;
 }
 
-header {
-    margin: 10px;
-    
-}
-
 #banner {
-    font-size: 2.5em;
-    font-weight: bold;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* subtle shadow for better readability */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100vw;
+    font-family: "Great Vibes", "Lucida Handwriting", "Brush Script MT", cursive;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #ffcaf1;
 }
 
-#banner, section {
+header, section {
     background: rgba(0, 0, 0, 0.5); /* semi-transparent background for better readability */
     padding: 20px;
     border-radius: 10px;
