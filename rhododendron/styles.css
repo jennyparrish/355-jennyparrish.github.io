@@ -10,9 +10,8 @@ body {
     background-position: center center;
     height: 100vh;
     width: 100vw;
-    border: 13px solid #ffcaf1;
+    border: 13px solid #ffcaf1; 
     
-    /* set up flex layout for centering */
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
@@ -30,15 +29,12 @@ body {
 header {
     background: rgba(255, 86, 238, 0.50);
     width: 100vw;
+    grid-area: header;
 }
 
-#banner {
-    padding: 0;
-    margin: 0;
+header h1 {
     text-align: center;
-    width: 90vw;
     font-family: "Playfair Display", "Didot", "Bodoni MT", "Times New Roman", serif;
-    text-decoration:darkolivegreen;
     font-size: 100px;
     /* text-transform: uppercase; */ /* Optional: make text uppercase */
     color: #180012;
