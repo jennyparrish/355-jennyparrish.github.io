@@ -22,22 +22,34 @@ body {
     margin: 0;
     text-align: center;
     width: 100vw;
-    font-family: "Great Vibes", "Lucida Handwriting", "Brush Script MT", cursive;
-    font-size: 48px;
-    text-transform: uppercase;
-    color: #ffcaf1;
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    text-decoration:darkolivegreen;
+    font-size: 100px;
+    /* text-transform: uppercase; */ /* Optional: make text uppercase */
+    color: #180012;
 }
 
 header, section {
-    background: rgba(0, 0, 0, 0.5); /* semi-transparent background for better readability */
+    background: rgba(255, 86, 238, 0.967); /* semi-transparent background for better readability */
     padding: 20px;
     border-radius: 10px;
-    max-width: 700px;
+    max-width: auto;
     margin: 20px;
 }
+
+
 
 p {
     margin: 10px 0;
     line-height: 1.5;
     text-justify: left;
+}
+
+footer {
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+    background: rgba(255, 86, 238, 0.967); /* semi-transparent background for better readability */
+    border-radius: 10px;
+    margin: 20px;
 }
