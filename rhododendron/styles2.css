@@ -49,6 +49,8 @@ p {
     margin: 20px 0;
     line-height: 1.4;
     text-justify: left;
+    padding: 10px;
+    background-color: rgba(205, 205, 205, 0.64);
 }
 
 #rhodo3 {
