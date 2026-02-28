@@ -55,7 +55,6 @@ header h2 {
 }
 
 section {
-    position: relative;
     background: rgba(255, 86, 238, 0.40); /* semi-transparent background for better readability */
     border-radius: 10px;
     margin: 20px;
@@ -63,7 +62,6 @@ section {
 }
 
 p {
-    position: absolute;
     font-size: 1.2em;
     background: rgba(205, 205, 205, 0.70);
     border-radius: 10px;
