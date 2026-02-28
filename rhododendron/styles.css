@@ -28,7 +28,7 @@ header {
     position: absolute;
     top: 0;
     width: 100vw;
-    height: 10vh;
+    height: 40vh;
     background: rgba(255, 86, 238, 0.50);
     grid-area: header;
 }
