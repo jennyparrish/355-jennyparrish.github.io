@@ -60,11 +60,13 @@ p {
     text-justify: left;
 }
 
-footer {
+footer p {
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 0;
    /* height: 30px;*/
     text-align: center;
-    background: rgba(255, 86, 238, 0.9); /* semi-transparent background for better readability */
-    border-radius: 10px;
+    background: rgba(255, 86, 238, 0.5); /* semi-transparent background for better readability */
 }
 
 
