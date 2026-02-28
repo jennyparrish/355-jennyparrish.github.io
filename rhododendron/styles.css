@@ -25,7 +25,7 @@ body {
 }
 
 header {
-    width: 100vw;
+    width: 90vw;
     height: 20vh;
     background: rgba(255, 86, 238, 0.50);
   /*  grid-area: header; */
