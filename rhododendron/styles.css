@@ -7,18 +7,19 @@
 body {
     background-image: url("/rhododendron/rhodo1.jpeg");
     background-size: cover;
-    background-position: center right;
+    background-position: center left;
     background-repeat: no-repeat;
     height: 100;
     width: 100vw;
-    border: 2em solid #ffcaf1;
+    border: 1em solid #ffcaf1;
+
 }
 
 header {
     width: 100;
     height: 100;
     background: rgba(255, 86, 238, 0.50);
-  /*  grid-area: header; */
+    margin-bottom: 20px;;
 }
 
 #banner {
@@ -39,17 +40,20 @@ header h2 {
 }
 
 section {
+
     width: 50vw;
-    padding: 10px;
+    padding: 5px;
+    margin: 10px;
     background: rgba(255, 86, 238, 0.40); /* semi-transparent background for better readability */
     border-radius: 10px;
 }
+
 
 p {
     font-size: 1.2em;
     border: 10px;
     border-radius: 13px;
-    background: rgb(235, 235, 235);
+    background: rgb(245, 245, 245, 0.8); /* semi-transparent background for better readability */
     padding: 10px;
     margin: 10px;
     line-height: 1.3em;
@@ -64,7 +68,7 @@ footer {
 }
 
 
-@media (max-width: 415px) {
+@media screen (max-width: 415px) {
 
     body {
         background-image: url("/rhododendron/rhodo1.jpeg");
@@ -73,13 +77,6 @@ footer {
         background-repeat: no-repeat;
         height: 100vh;
         width: 100vw;
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto;
-        grid-template-areas: 
-            "header"
-            "section"
-            "footer";
-    }
 
     #banner {
         font-size: 50px; /* Adjust font size for smaller screens */
