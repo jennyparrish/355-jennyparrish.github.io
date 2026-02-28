@@ -30,7 +30,7 @@ header {
     font-size: 5em;
     padding: .2em;
     color: #2d0021;
-    background: rgb(253, 253, 253, 0.8); /* semi-transparent background for better readability */
+    background: rgb(255, 86, 238, 0.8); /* semi-transparent background for better readability */
 }
 
 header h2 {
