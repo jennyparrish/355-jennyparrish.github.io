@@ -25,46 +25,39 @@ body {
 }
 
 header {
-    position: absolute;
-    top: 0;
     width: 100vw;
-    height: 30vh;
+    height: 20vh;
     background: rgba(255, 86, 238, 0.50);
     grid-area: header;
 }
 
 #banner {
-    position: absolute;
-    top: 0;
-    width: 90vw;
-    height: 30vh;
+    width: 70vw;
+    height: 70vh;
     text-align: center;
     font-family: "Playfair Display", "Didot", "Bodoni MT", "Times New Roman", serif;
-    font-size: 3em;
+    font-size: 4em;
     /* text-transform: uppercase; */ /* Optional: make text uppercase */
-    color: #180012;
+    color: #1a0013;
 }
 
 header h2 {
-    position: absolute;
-    top: 1em;;
-    left: 1em;;
+    top: 1em;
+    left: 1em;
    /* transform: translate(-50%, -50%); */
-    font-size: 1em;
-    color: #180012;
+    font-size: 2em;
+    color: #1a0013;
 }
 
 section {
     background: rgba(255, 86, 238, 0.40); /* semi-transparent background for better readability */
     border-radius: 10px;
-    margin: 20px;
     grid-area: section;
 }
 
 p {
     font-size: 1.2em;
     background: rgba(205, 205, 205, 0.70);
-    border-radius: 10px;
     padding: 10px;
     margin: 10px 0;
     line-height: 1.3em;
