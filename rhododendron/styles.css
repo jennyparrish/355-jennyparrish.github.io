@@ -28,7 +28,7 @@ header {
     position: absolute;
     top: 0;
     width: 100vw;
-    height: 40vh;
+    height: 30vh;
     background: rgba(255, 86, 238, 0.50);
     grid-area: header;
 }
@@ -36,8 +36,8 @@ header {
 #banner {
     position: absolute;
     top: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 90vw;
+    height: 30vh;
     text-align: center;
     font-family: "Playfair Display", "Didot", "Bodoni MT", "Times New Roman", serif;
     font-size: 100px;
@@ -46,10 +46,8 @@ header {
 }
 
 section {
-    position: absolute;
-    font-size: 1.3em;
+    position: relative;
     background: rgba(255, 86, 238, 0.40); /* semi-transparent background for better readability */
-    padding: 10px;
     border-radius: 10px;
     margin: 20px;
     grid-area: section;
@@ -57,12 +55,12 @@ section {
 
 p {
     position: absolute;
-    font-size: 1.3em;
+    font-size: 1.2em;
     background: rgba(205, 205, 205, 0.70);
     border-radius: 10px;
     padding: 10px;
     margin: 10px 0;
-    line-height: 1.4em;
+    line-height: 1.3em;
     text-justify: left;
 }
 
