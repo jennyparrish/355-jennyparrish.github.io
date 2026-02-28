@@ -28,22 +28,21 @@ header {
     text-align: center;
     font-family: "Playfair Display", "Didot", "Bodoni MT", "Times New Roman", serif;
     font-size: 5em;
+    padding: .2em;
     color: #2d0021;
-    border-radius: 13px;
-    background: rgb(245, 245, 245, 0.8); /* semi-transparent background for better readability */
+    background: rgb(253, 253, 253, 0.8); /* semi-transparent background for better readability */
 }
 
 header h2 {
-    padding: 1em;
+    padding: .2em;
     text-align: center;
     font-size: 1.8em;
     color: #2d0021;
-    border-radius: 13px;
     background: rgb(245, 245, 245, 0.8); /* semi-transparent background for better readability */
 }
 
 section {
-    width: 40vw;
+    width: 55vw;
     padding: 5px;
     margin: 10px;
     background: rgba(255, 86, 238, 0.40); /* semi-transparent background for better readability */
