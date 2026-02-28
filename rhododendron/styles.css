@@ -7,7 +7,7 @@
 body {
     background-image: url("/rhododendron/rhodo1.jpeg");
     background-size: cover;
-    background-position: center;
+    background-position: center right;
     background-repeat: no-repeat;
     height: 100;
     width: 100vw;
@@ -49,7 +49,7 @@ p {
     font-size: 1.2em;
     border: 10px;
     border-radius: 13px;
-    background: rgba(235, 235, 235, 0.70);
+    background: rgb(235, 235, 235);
     padding: 10px;
     margin: 10px;
     line-height: 1.3em;
@@ -59,7 +59,6 @@ p {
 footer {
    /* height: 30px;*/
     text-align: center;
-    padding: 10px;
     background: rgba(255, 86, 238, 0.9); /* semi-transparent background for better readability */
     border-radius: 10px;
 }
