@@ -40,8 +40,17 @@ header {
     height: 30vh;
     text-align: center;
     font-family: "Playfair Display", "Didot", "Bodoni MT", "Times New Roman", serif;
-    font-size: 100px;
+    font-size: 3em;
     /* text-transform: uppercase; */ /* Optional: make text uppercase */
+    color: #180012;
+}
+
+header h2 {
+    position: absolute;
+    top: 1em;;
+    left: 1em;;
+   /* transform: translate(-50%, -50%); */
+    font-size: 1em;
     color: #180012;
 }
 
