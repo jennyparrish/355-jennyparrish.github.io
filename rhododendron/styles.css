@@ -25,6 +25,10 @@ body {
 }
 
 header {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
     background: rgba(255, 86, 238, 0.50);
     grid-area: header;
 }
@@ -42,7 +46,7 @@ header {
 }
 
 section {
-    position: relative;
+    position: absolute;
     font-size: 1.3em;
     background: rgba(255, 86, 238, 0.40); /* semi-transparent background for better readability */
     padding: 10px;
@@ -52,11 +56,13 @@ section {
 }
 
 p {
+    position: absolute;
+    font-size: 1.3em;
     background: rgba(205, 205, 205, 0.70);
     border-radius: 10px;
-    margin: 20px 0;
+    padding: 10px;
     margin: 10px 0;
-    line-height: 1.5;
+    line-height: 1.4em;
     text-justify: left;
 }
 
@@ -72,8 +78,8 @@ footer {
 
 
 @media (max-width: 415px) {
+
     body {
-        body {
         background-image: url("/rhododendron/rhodo1.jpeg");
         background-size: cover;
         background-position: center center;
