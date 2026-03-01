@@ -107,7 +107,7 @@ footer {
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 300px) {
     main>* {
         flex: 1 1 (100% - 3px);
     }
@@ -118,11 +118,12 @@ footer {
     }
 
     header h2 {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
     section {
-        width: 100vw;
+        width: 100vw - 5px;
+        margin: 10px 0;
     }
 
 
@@ -132,7 +133,7 @@ footer {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     main>* {
         flex: 1 1 calc(50% - 5px);
     }
