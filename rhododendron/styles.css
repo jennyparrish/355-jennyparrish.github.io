@@ -150,6 +150,10 @@ footer {
         font-size: 1.8em;
     }
 
+    section {
+        max-width: 50vw;
+    }
+
     #last-img {
         max-width: 75vw;
     }
