@@ -62,7 +62,7 @@ section.sec-right {
 
 p {
     background: rgba(245, 245, 245, 0.7);
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 20px 0;
     line-height: 1.4;
     text-justify: left;
@@ -71,11 +71,10 @@ p {
 
 img {
     height: auto ;
-
     padding: 10px;
     margin: 10px;
     border: 2px solid #180012;
-    border-radius: 10px;
+    border-radius: 5px;
 
 }
 
@@ -83,5 +82,5 @@ footer {
    /* height: 30px;*/
     text-align: center;
     background: rgba(255, 86, 238, 0.967); /* semi-transparent background for better readability */
-    border-radius: 10px;
+    border-radius: 5px;
 }
