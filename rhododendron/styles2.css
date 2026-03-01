@@ -54,11 +54,12 @@ section {
     border-radius: 10px;
     width: 55vw;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
 }
 
 section.sec-right {
-    position: align-right;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 p {
@@ -71,8 +72,8 @@ p {
 }
 
 img {
-    height: 333px;
-    width: auto;
+    height: auto ;
+
     padding: 10px;
     margin: 10px;
     border: 2px solid #180012;
@@ -83,9 +84,6 @@ img {
 footer {
    /* height: 30px;*/
     text-align: center;
-    padding: 10px;
     background: rgba(255, 86, 238, 0.967); /* semi-transparent background for better readability */
     border-radius: 10px;
-    margin: 20px;
-    grid-area: footer;
 }
