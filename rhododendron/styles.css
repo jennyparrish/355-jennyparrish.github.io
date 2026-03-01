@@ -109,11 +109,11 @@ footer {
 
 @media (min-width: 300px) {
     main>* {
-        flex: 1 1 (100% - 3px);
+        flex: 1 1 (100vw - 3px);
     }
 
     h1#banner {
-        font-size: 2rem;
+        font-size: 2em;
         margin: 10px;
     }
 
@@ -139,7 +139,7 @@ footer {
     }
 
     h1#banner {
-        font-size: 4rem;
+        font-size: 4em;
         margin: 10px;
     }
 
