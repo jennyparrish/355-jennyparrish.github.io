@@ -6,11 +6,8 @@
 
 body {
     font-family: "Arial", sans-serif;
-    background-color: #ffcaf1;
-    color: #180012;
-    border:#2d0021 solid 5px;
-    border-radius: 15px;
-    padding: 15px;
+    background-color: #0037039e;
+    padding: 10px;
 }
 
 #flowerbkgd {
@@ -45,13 +42,14 @@ header h2 {
     font-size: 1.8em;
     color: #2d0021;
     background: rgb(245, 245, 245, 0.7); /* semi-transparent background for better readability */
+    border-radius: 5px;
 }
 
 section {
     font-size: 1.2em;
     color: #180012;
     background: rgba(255, 86, 238, 0.30); /* semi-transparent background for better readability */
-    border-radius: 10px;
+    border-radius: 5px;
     width: 55vw;
     padding: 10px;
     margin: 10px;
