@@ -12,7 +12,7 @@ body {
 }
 
 #flowerbkgd {
-    background-image: url("/rhododendron/rhodo1.jpeg");
+    background-image: url("/rhododendron/rhodo1.jpg");
     background-size: cover;
     background-position: bottom center;
     background-attachment: fixed;
