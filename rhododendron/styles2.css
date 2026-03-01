@@ -11,7 +11,7 @@
 #flowerbkgd {
     background-image: url("/rhododendron/rhodo1.jpeg");
     background-size: cover;
-    background-position: center center;
+    background-position: center left;
     background-attachment: fixed;
     background-color: #ffcaf1;
 }
