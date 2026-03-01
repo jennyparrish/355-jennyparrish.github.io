@@ -12,8 +12,6 @@
     background-image: url("/rhododendron/rhodo1.jpeg");
     background-size: cover;
     background-position: center center;
-    height: auto;
-    width: 100%;
     background-attachment: fixed;
     background-color: #ffcaf1;
 }
@@ -31,9 +29,17 @@ h1#banner {
     color: #180012;
     padding: 10px;
     text-align: center;
-    background-color: rgba(205, 205, 205, 0.64);
+    background-color: rgba(245, 245, 245, 0.7);
     margin: 20px;
     border-radius: 5px;
+}
+
+header h2 {
+    padding: .2em;
+    text-align: center;
+    font-size: 1.8em;
+    color: #2d0021;
+    background: rgb(245, 245, 245, 0.7); /* semi-transparent background for better readability */
 }
 
 section {
@@ -46,7 +52,7 @@ section {
 }
 
 p {
-    background: rgba(205, 205, 205, 0.70);
+    background: rgba(245, 245, 245, 0.7);
     border-radius: 10px;
     margin: 20px 0;
     line-height: 1.4;
