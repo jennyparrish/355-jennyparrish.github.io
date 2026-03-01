@@ -6,7 +6,7 @@
 
 body {
     font-family: "Arial", sans-serif;
-    background-color: #0037039e;
+    background-color: #003703;
     padding: 10px;
 }
 
@@ -45,6 +45,13 @@ header h2 {
     border-radius: 5px;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
 section {
     font-size: 1.2em;
     color: #180012;
@@ -63,24 +70,20 @@ section.sec-right {
 p {
     background: rgba(245, 245, 245, 0.7);
     border-radius: 5px;
-    margin: 20px 0;
+    margin: 10px 0;
     line-height: 1.4;
     text-justify: left;
     padding: 10px;
 }
 
 img {
-    height: auto ;
-    padding: 10px;
+    height: 80vh;
     margin: 10px;
     border: 2px solid #180012;
     border-radius: 5px;
-
 }
 
 footer {
    /* height: 30px;*/
     text-align: center;
-    background: rgba(255, 86, 238, 0.967); /* semi-transparent background for better readability */
-    border-radius: 5px;
 }
