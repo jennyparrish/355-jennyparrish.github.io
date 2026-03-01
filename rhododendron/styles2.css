@@ -55,8 +55,8 @@ p {
 }
 
 img {
-    width: 50vw;
-    height: auto;
+    height: 333px;
+    width: auto;
     padding: 10px;
     margin: 10px;
     border: 2px solid #180012;
