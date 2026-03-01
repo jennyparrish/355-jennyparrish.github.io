@@ -113,8 +113,8 @@ footer {
     }
 
     h1#banner {
-        font-size: 2em;
-        margin: 10px;
+        font-size: 3em;
+        margin: 15px;
     }
 
     header h2 {
@@ -122,10 +122,9 @@ footer {
     }
 
     section {
-        width: 100vw - 5px;
-        margin: 10px 0;
+        width: 100vw;
+        margin: 5px 0;
     }
-
 
     #last-img {
         width: 60vw;
