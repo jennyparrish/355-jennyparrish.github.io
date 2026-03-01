@@ -133,8 +133,12 @@ footer {
 }
 
 @media (min-width: 1025px) {
-    main>* {
-        flex: 1 1 calc(50% - 5px);
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 10px;
+        padding: 20px;
     }
 
     h1#banner {
