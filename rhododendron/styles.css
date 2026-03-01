@@ -151,6 +151,6 @@ footer {
     }
 
     #last-img {
-        width: 75vw;
+        max-width: 75vw;
     }
 }
