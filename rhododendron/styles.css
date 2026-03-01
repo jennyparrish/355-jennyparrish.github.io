@@ -95,9 +95,9 @@ footer {
 }
 
 
-@media (min-width: 600px) {
+@media (max-width: 500px) {
     main>* {
-        flex: 1 1 (50% - 20px);
+        flex: 1 1 (50% - 10px);
     }
 
     h1#banner {
@@ -119,9 +119,9 @@ footer {
     }
 }
 
-@media (min-width: 900px) {
+@media (max-width: 900px) {
     main>* {
-        flex: 1 1 (33.33% - 20px);
+        flex: 1 1 (33.33% - 5px);
     }
 
     h1#banner {
