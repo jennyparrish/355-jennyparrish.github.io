@@ -82,7 +82,7 @@ p {
 }
 
 img {
-    width: 53vw;
+    width: 50vw;
     margin: 10px;
     border: 2px solid #180012;
     border-radius: 5px;
@@ -94,27 +94,29 @@ footer {
 }
 
 
-@media screen and (max-width: 450px) {
-
-    body {
-        background-image: url("/rhododendron/rhodo2.jpeg");
-        background-size: 50%;
-        background-position: center center;
-        background-repeat: no-repeat;
-       /* height: 100vh;
-        width: auto; */
-    }
-
-    #banner {
-        font-size: 50px; /* Adjust font size for smaller screens */
+@media (min-width: 600px) {
+    main > *{
+        flex: 1 1 (50% - 20px);
     }
 
     section {
+        width: 100%;
+    }
 
-    width: 100vw;
-    padding: 5px;
-    margin: 10px;
-    background: rgba(255, 86, 238, 0.40); /* semi-transparent background for better readability */
-    border-radius: 10px;
+    img {
+        width: 100%;
+    }
 }
+@media (min-width: 900px) {
+    main > * {
+        flex: 1 1 (33.33% - 20px);
+    }
+
+    section {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
 }
