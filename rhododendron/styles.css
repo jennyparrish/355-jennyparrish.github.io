@@ -89,6 +89,16 @@ p {
     border-radius: 5px;
 }
 
+figcaption {
+    text-justify: auto;
+    font-size: 0.9em;
+    color: #180012;
+    background-color: rgba(245, 245, 245, 0.7);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
 footer {
     /* height: 30px;*/
     text-align: center;
@@ -116,6 +126,7 @@ footer {
 
     #last-img {
         width: 100vw;
+        
     }
 }
 
