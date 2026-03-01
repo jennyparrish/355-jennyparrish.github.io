@@ -14,9 +14,9 @@ body {
 #flowerbkgd {
     background-image: url("/rhododendron/rhodo1.jpeg");
     background-size: cover;
-    background-position: bottom;
+    background-position: bottom center;
     background-attachment: fixed;
-    margin-top: -20px;
+
     /* background-color: #ffcaf1; */
 }
 
@@ -126,14 +126,14 @@ footer {
 
 
     #last-img {
-        width: 100vw;
+        width: 60vw;
         
     }
 }
 
 @media (max-width: 900px) {
     main>* {
-        flex: 1 1 calc(50% - 5px);
+        flex: 1 1 calc(50% - 50px);
     }
 
     h1#banner {
