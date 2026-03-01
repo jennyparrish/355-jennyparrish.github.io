@@ -38,13 +38,14 @@ h1#banner {
 }
 
 header h2 {
-    padding: 1em;
+    padding: .5em;
     text-align: center;
     font-size: 1.8em;
     color: #2d0021;
     background: rgb(245, 245, 245, 0.7);
     /* semi-transparent background for better readability */
     border-radius: 5px;
+    margin: 20px;
 }
 
 main {
