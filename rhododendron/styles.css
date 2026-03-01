@@ -102,11 +102,11 @@ footer {
 
     h1#banner {
         font-size: 3rem;
-        padding: .5em;
-        text-align: center;
-        background-color: rgba(245, 245, 245, 0.7);
         margin: 10px;
-        border-radius: 5px;
+    }
+
+    header h2 {
+        font-size: 1.8em;
     }
 
     section {
@@ -126,11 +126,11 @@ footer {
 
     h1#banner {
         font-size: 4rem;
-        padding: .5em;
-        text-align: center;
-        background-color: rgba(245, 245, 245, 0.7);
-        margin: 15px;
-        border-radius: 5px;
+        margin: 10px;
+    }
+
+    header h2 {
+        font-size: 1.8em;
     }
 
     section {
