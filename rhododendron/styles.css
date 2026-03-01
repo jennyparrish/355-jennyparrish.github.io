@@ -95,9 +95,9 @@ footer {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     main>* {
-        flex: 1 1 (50% - 10px);
+        flex: 1 1 (100% - 5px);
     }
 
     h1#banner {
@@ -106,22 +106,22 @@ footer {
     }
 
     header h2 {
-        font-size: 1.8em;
+        font-size: 1.3em;
     }
 
     section {
-        width: 100%;
+        width: 100vw;
     }
 
 
-    img {
-        width: 100%;
+    #last-img {
+        width: 100vw;
     }
 }
 
 @media (max-width: 900px) {
     main>* {
-        flex: 1 1 (33.33% - 5px);
+        flex: 1 1 calc(50% - 5px);
     }
 
     h1#banner {
@@ -137,7 +137,7 @@ footer {
         width: 100%;
     }
 
-    img {
-        width: 100%;
+    #last-img {
+        width: 100vw;
     }
 }
