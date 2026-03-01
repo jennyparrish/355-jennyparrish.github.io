@@ -27,7 +27,7 @@ header {
 
 h1#banner {
     font-family: "Playfair Display", "Didot", "Bodoni MT", "Times New Roman", serif;
-    font-size: 3rem;
+    font-size: 5rem;
     color: #180012;
     padding: .5em;
     text-align: center;
@@ -37,7 +37,7 @@ h1#banner {
 }
 
 header h2 {
-    padding: .2em;
+    padding: 1em;
     text-align: center;
     font-size: 1.8em;
     color: #2d0021;
@@ -48,7 +48,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
     padding: 20px;
 }
 
