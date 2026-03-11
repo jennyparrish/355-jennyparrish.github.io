@@ -35,14 +35,17 @@ header h1 {
     padding: 20px 15px 20px 15px;
     font-size: 1.5em;
     background-color: #8eb78374;
+    max-width: 400px;
+}
 }
 
 header h3 {
     font-family: 'Franklin Gothic Medium', 'Helvetica', Arial, sans-serif;
     background-color: #f8f8f8b5;
-    padding: 20px 0 20px 15px;
+    padding: 10px 0 10px 15px;
     font-size: .7em;
-    font-style: small-caps;
+    font-style: all-small-caps;
+    max-width: 400px;
 }
 
 main {
