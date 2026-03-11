@@ -75,7 +75,7 @@ ul#time-list {
     border-color: darkgray 1px solid;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
     div#background-image {
         height: 30vh;
         width: 60vw;
