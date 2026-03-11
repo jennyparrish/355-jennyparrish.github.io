@@ -67,6 +67,14 @@ div#time-info {
     padding: 20px 15px 20px 15px;
 }
 
+ul#time-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 20px;
+
+}
+
 @media (max-width: 600px) {
     #background-image {
         height: 30vh;
