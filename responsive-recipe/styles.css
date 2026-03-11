@@ -69,6 +69,8 @@ div#time-info {
 
 ul#time-list {
     display: flex;
+    max-width: 300px;
+    min-width: 200px;
     flex-direction: column;
     list-style-type: none;
     padding: 20px;
@@ -76,7 +78,7 @@ ul#time-list {
 }
 
 @media (max-width: 600px) {
-    #background-image {
+    div#background-image {
         height: 30vh;
         width: 60vw;
         align-self: top-right;
