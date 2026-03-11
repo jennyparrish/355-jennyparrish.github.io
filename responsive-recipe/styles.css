@@ -68,11 +68,31 @@ div#time-info {
 }
 
 ul#time-list {
+    display: table;
+    columns: 2;
+    rows: 2;
     min-width: 300px;
-    aspect-ratio: 16 / 9;
     list-style-type: none;
     background-color: gray;
     border-color: darkgray 1px solid;
+}
+
+li#item1 {
+    display: table-cell 1/1;
+    border: 1px solid darkgray;
+    padding: 10px;
+}
+
+li#item2 {
+    display: table-cell 1/2;
+    border: 1px solid darkgray;
+    padding: 10px;
+}
+
+li#item3 {
+    display: table-cell 2/1;
+    border: 1px solid darkgray;
+    padding: 10px;
 }
 
 @media (min-width: 600px) {
