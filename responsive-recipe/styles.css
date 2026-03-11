@@ -46,11 +46,9 @@ header h3 {
 }
 
 header p {
-    font-family: '', serif;
+    font-family: 'Adobe Caslon Pro', 'Times New Roman', serif;
     background-color: #f8f8f8b5;
-    padding: 20px 0 20px 15px;
-    font-size: .9em;
-    font-style: capitalize;
+    padding: 50px 10px 50px 15px;
 }
 
 main {
