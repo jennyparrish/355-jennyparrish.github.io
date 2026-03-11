@@ -16,13 +16,13 @@ body {
 header {
     padding: 0;
     text-align: left;
-    width: 95%;
+    width: 100%;
 }
 
 div#background-image {
     display: block;
     position: relative; 
-    width: 100vw;
+    width: auto;
     height: 40vh;
     object-fit: cover;
     padding: 0;
@@ -31,19 +31,18 @@ div#background-image {
 }
 
 header h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Helvetica', 'Franklin Gothic Medium', Arial, sans-serif;
     padding: 20px 0 20px 15px;
     font-size: 2em;
     background-color: #8eb78374;
 }
 
 header h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Helvetica', Arial, sans-serif;
     background-color: #f8f8f8b5;
     padding: 20px 0 20px 15px;
     font-size: .9em;
     font-style: capitalize;
-    font-kerning: .95;
 }
 
 main {
