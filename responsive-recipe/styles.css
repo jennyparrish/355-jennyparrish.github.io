@@ -31,14 +31,22 @@ div#background-image {
 }
 
 header h1 {
-    font-family: 'Helvetica', 'Franklin Gothic Medium', Arial, sans-serif;
-    padding: 20px 0 20px 15px;
+    font-family: 'Bonveno', 'Helvetica', 'Franklin Gothic Medium', Arial, sans-serif;
+    padding: 20px 15px 20px 15px;
     font-size: 2em;
     background-color: #8eb78374;
 }
 
 header h3 {
     font-family: 'Franklin Gothic Medium', 'Helvetica', Arial, sans-serif;
+    background-color: #f8f8f8b5;
+    padding: 20px 0 20px 15px;
+    font-size: .9em;
+    font-style: capitalize;
+}
+
+header p {
+    font-family: '', serif;
     background-color: #f8f8f8b5;
     padding: 20px 0 20px 15px;
     font-size: .9em;
