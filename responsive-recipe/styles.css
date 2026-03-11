@@ -68,13 +68,11 @@ div#time-info {
 }
 
 ul#time-list {
-    display: flex;
-    max-width: 300px;
     min-width: 200px;
-    flex-direction: column;
+    aspect-ratio: 16 / 9;
     list-style-type: none;
-    padding: 20px;
-
+    background-color: gray;
+    border-color: darkgray 1px solid;
 }
 
 @media (max-width: 600px) {
@@ -82,5 +80,14 @@ ul#time-list {
         height: 30vh;
         width: 60vw;
         align-self: top-right;
+    }
+    header h1 {
+        max-width: 50vw;
+        font-size: 2.5em;
+    }
+
+    header h3 {
+        max-width: 50vw;
+        font-size: 1.2em;
     }
 }
