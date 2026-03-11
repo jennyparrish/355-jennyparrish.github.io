@@ -33,9 +33,9 @@ div#background-image {
 header h1 {
     font-family: 'Bonveno', 'Helvetica', 'Franklin Gothic Medium', Arial, sans-serif;
     padding: 20px 15px 20px 15px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     background-color: #8eb78374;
-    max-width: 400px;
+    max-width: 75vw;
 }
 
 header h3 {
@@ -43,9 +43,8 @@ header h3 {
     background-color: #f8f8f8b5;
     padding: 10px 0 10px 15px;
     font-size: .7em;
-    max-width: 60vw;
+    max-width: 75vw;
 }
-
 main {
     display: flex;
     flex-direction: column;
