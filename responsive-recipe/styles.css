@@ -37,21 +37,19 @@ header h1 {
     background-color: #8eb78374;
     max-width: 400px;
 }
-}
 
 header h3 {
     font-family: 'Franklin Gothic Medium', 'Helvetica', Arial, sans-serif;
     background-color: #f8f8f8b5;
     padding: 10px 0 10px 15px;
     font-size: .7em;
-    font-style: all-small-caps;
-    max-width: 400px;
+    max-width: 60vw;
 }
 
 main {
-  /*  display: flex;
-    flex-direction: row;
-    justify-content: space-between; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 95vw;
 }
 
