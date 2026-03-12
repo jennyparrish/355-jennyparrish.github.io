@@ -20,8 +20,7 @@ body {
     display: flex;
     align-items: flex-end;      /* align text to the bottom of the hero section */
     justify-content: flex-start;     /* align text to the left */
-    padding: 2rem;
-    padding-bottom: 4rem;       /* space for text overlay */
+    padding: 1rem;
     overflow: hidden;          /* hide any overflow from the image */
 }
 
