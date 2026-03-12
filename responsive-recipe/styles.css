@@ -13,6 +13,7 @@ body {
 
 }
 
+/* perplexity.ai helped me with the hero section and the image overlay, and getting the flex display started */
 .hero {
     position: relative;
     height: 50vh;
@@ -76,6 +77,18 @@ main {
     padding: 4 rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+#recipe-intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* I got help from perplexity.ai to create the star rating system */
+.ratings-stars {
+    color: #f8c146;         /* gold color for stars */
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 /* desktop: image top-right, text left with slight overlap */
