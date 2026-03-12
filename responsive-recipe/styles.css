@@ -179,6 +179,10 @@ main {
     .hero-content h3 {
         font-size: 1rem; /* increase font size for better readability */
     }
+
+    #time-list {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (max-width: 768px) {
@@ -189,45 +193,6 @@ main {
         }
 
     main {
-        padding: .5rem;
+        padding: 1.5rem;
     }
 }
-
-/*
-div#time-info {
-   /* display: flex;
-    flex-direction: column;
-    justify-content: space-around; 
-    width: 30%;
-    background-color: #f8f8f8b5;
-    padding: 20px 15px 20px 15px;
-}
-
-ul#time-list {
-    display: table;
-    columns: 2;
-    rows: 2;
-    min-width: 300px;
-    list-style-type: none;
-    background-color: gray;
-    border-color: darkgray 1px solid;
-}
-
-li#item1 {
-    display: table-cell 1/1;
-    border: 1px solid darkgray;
-    padding: 10px;
-}
-
-li#item2 {
-    display: table-cell 1/2;
-    border: 1px solid darkgray;
-    padding: 10px;
-}
-
-li#item3 {
-    display: table-cell 2/1;
-    border: 1px solid darkgray;
-    padding: 10px;
-}
-
