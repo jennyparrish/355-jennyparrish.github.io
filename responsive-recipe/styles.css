@@ -143,6 +143,12 @@ main {
     text-align: left;
 }
 
+section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 
 
 /* desktop: image top-right, text left with slight overlap */
