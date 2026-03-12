@@ -127,7 +127,7 @@ main {
 #time-list {
     display: grid;
     grid-template-columns: 1fr 1fr;     /* makes a 2x3 grid */
-    gap: 1.5rem;
+    gap: 0;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -135,12 +135,13 @@ main {
     margin: 0 auto;
 }
 
+/* ai helped, but I used the tool in 'Inspect' to customize it */
 #time-list li {
-    background: white;
+    background: #c6c6c6;
     padding: 1.25rem;
     border-radius: 8px;
     text-align: center;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+   /* box-shadow: 0 2px 8px rgba(0,0,0,0.1); */
     border-left: 4px solid #6c757d;
     transition: transform 0.2s;
 }
