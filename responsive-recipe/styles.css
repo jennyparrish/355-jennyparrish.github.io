@@ -295,6 +295,10 @@ section {
         font-size: 2rem;
     }
 
+    #ingredients li span {
+        padding-left: 2rem;
+    }
+
 /* credit to perplexity.ai for showing me how to do this */
     #video-placeholder iframe {
         height: 250px;
