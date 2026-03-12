@@ -43,17 +43,6 @@ body {
     z-index: -2;               /* place the image behind the text */
 }   
 
-div#background-image {
-    display: block;
-    position: relative; 
-    width: auto;
-    height: 30vh;
-    /* object-fit: cover; */
-    padding: 0;
-    z-index: -1;
-    opacity: 0.8;  
-}
-
 header h1 {
     font-family: 'Bonveno', 'Helvetica', 'Franklin Gothic Medium', Arial, sans-serif;
     padding: 20px 15px 20px 15px;
@@ -69,7 +58,7 @@ header h3 {
     font-size: .7em;
     max-width: 75vw;
 }
-
+/*
 main {
     display: flex;
     flex-direction: column;
@@ -86,7 +75,7 @@ main {
 div#time-info {
    /* display: flex;
     flex-direction: column;
-    justify-content: space-around; */
+    justify-content: space-around; 
     width: 30%;
     background-color: #f8f8f8b5;
     padding: 20px 15px 20px 15px;
