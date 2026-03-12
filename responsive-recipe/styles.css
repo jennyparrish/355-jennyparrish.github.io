@@ -20,7 +20,7 @@ body {
     display: flex;
     align-items: flex-end;      /* align text to the bottom of the hero section */
     justify-content: flex-start;     /* align text to the left */
-    padding: 1rem;
+    padding: 0 2rem 0 0; /* add padding to the right for better text placement */
     overflow: hidden;          /* hide any overflow from the image */
 }
 
@@ -51,7 +51,7 @@ body {
 
 .hero-content {
     position: relative;        /* ensure the text is above the image and overlay */
-    color: rgb(66, 28, 4);             /* text color for better visibility */
+    color: rgb(0, 0, 0);             /* text color for better visibility */
     z-index: 1;
     max-width: 600px;               /* ensure text is above the image and overlay */
 }
@@ -59,10 +59,10 @@ body {
 .hero-content h1 {
     font-family: 'Bonveno', 'Helvetica', 'Franklin Gothic Medium', Arial, sans-serif;
     margin-bottom: 0.5rem;
-    padding: 10px 0 10px 15px;
+    padding: 10px 15px 10px 15px;
     font-size: 2.5rem;
     line-height: 1.2;
-    background-color: #8eb78374;
+    background-color: #8eb783b5;
 }
 
 .hero-content h3 {
