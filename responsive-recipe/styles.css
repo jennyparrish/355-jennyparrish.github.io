@@ -178,7 +178,32 @@ section {
     line-height: 1.3;
 }
 
-/* video placeholder css */
+/* perplexity.ai gave me all of the framework for this */
+#video-placeholder {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: gray;
+    color: white;
+    margin: 3rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#video-placeholder::before {
+    content: ">";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 6rem;
+    opacity: 0.3;
+}
+
+#video-placeholder {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: none;
+}
 
 #instructions {
     background: #f0fdf4;
@@ -268,5 +293,10 @@ section {
 
     #ingredients h2, #instructions h2 {
         font-size: 2rem;
+    }
+
+/* credit to perplexity.ai for showing me how to do this */
+    #video-placeholder iframe {
+        height: 250px;
     }
 }
