@@ -139,16 +139,13 @@ main {
 #time-list li {
     background: #c6c6c6;
     padding: 1.25rem;
-    border-radius: 8px;
+    border-radius: 2px;
     text-align: center;
    /* box-shadow: 0 2px 8px rgba(0,0,0,0.1); */
     border-left: 4px solid #6c757d;
     transition: transform 0.2s;
 }
 
-#time-list li:hover {
-    transform: translateY(-2px);
-}
 
 
 /* desktop: image top-right, text left with slight overlap */
@@ -187,8 +184,8 @@ main {
 
 @media (max-width: 768px) {
     #time-list {
-        grid-template-columns: 1fr;     /* stacks them vertically for mobile only */
-        gap: .5rem;
+        grid-template-columns: 1fr 1fr;  
+        gap: 0;
         max-width: 70%;
         }
 
