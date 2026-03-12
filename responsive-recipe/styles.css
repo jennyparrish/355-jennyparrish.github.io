@@ -145,6 +145,10 @@ main {
     transition: transform 0.2s;
 }
 
+#time-list li:hover {
+    transform: translateY(-2px);
+}
+
 
 /* desktop: image top-right, text left with slight overlap */
 @media (min-width: 992px) {
@@ -176,6 +180,17 @@ main {
     }
 }
 
+@media (max-width: 768px) {
+    #time-list {
+        grid-template-columns: 1fr;     /* stacks them vertically for mobile only */
+        gap: .5rem;
+        max-width: 70%;
+        }
+
+    main {
+        padding: .5rem;
+    }
+}
 
 /*
 div#time-info {
