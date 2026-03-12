@@ -193,7 +193,7 @@ section {
     text-align: left;
 }
 
-#ingredients ol {
+#instructions ol {
     counter-reset: step-counter;
     list-style: none;
     padding: 0;
@@ -201,7 +201,7 @@ section {
     margin: 0 auto;
 }
 
-#ingredients li {
+#instructions li {
     counter-increment: step-counter;
     margin: 1rem 0;
     padding: 1rem;
