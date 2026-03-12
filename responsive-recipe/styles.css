@@ -193,6 +193,23 @@ section {
     text-align: left;
 }
 
+#ingredients ol {
+    counter-reset: step-counter;
+    list-style: none;
+    padding: 0;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#ingredients li {
+    counter-increment: step-counter;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: white;
+    position: relative;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
 
 
 /* desktop: image top-right, text left with slight overlap */
