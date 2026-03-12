@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-
-
- <img src="/favorite-recipe/curry.jpg" alt="A bowl of chickpea coconut curry over white rice." width="400">
-
 body {
     font-family: Arial, sans-serif;
    /* background-color: #f8f8f8;
@@ -77,20 +73,38 @@ body {
     font-size: .7em;
 }
 
+
+/* desktop: image top-right, text left with slight overlap */
+@media (min-width: 992px) {
+    .hero {
+        height: 60vh; 
+        justify-content: flex-start; /* align items to the top */
+        padding: 4rem; /* increase padding for larger screens */
+        padding-bottom: 6rem; /* more space for text overlay */
+    }
+
+    .hero::before {
+        right: 0; /* align image to the right */
+        left: 50%; /* start image from the middle */
+        background-position: top right; /* position image to the top-right */
+    }
+
+    .hero-content {
+        align-self: flex-start;
+        padding-bottom: 4rem; /* add padding around text */
+    }
+
+    .hero-content h1 {
+        font-size: 3.5rem; /* increase font size for better readability */
+    }
+
+    .hero-content h3 {
+        font-size: 1.75rem; /* increase font size for better readability */
+    }
+}
+
+
 /*
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 95vw;
-}
-
- p#blurb {
-    font-family: 'Adobe Caslon Pro', 'Times New Roman', serif;
-    background-color: #f8f8f8b5;
-    padding: 30px 10px 50px 15px;
-}
-
 div#time-info {
    /* display: flex;
     flex-direction: column;
@@ -128,19 +142,3 @@ li#item3 {
     padding: 10px;
 }
 
-@media (min-width: 600px) {
-    div#background-image {
-        height: 30vh;
-        width: 60vw;
-        align-self: top-right;
-    }
-    header h1 {
-        max-width: 50vw;
-        font-size: 2.5em;
-    }
-
-    header h3 {
-        max-width: 50vw;
-        font-size: 1.2em;
-    }
-}
