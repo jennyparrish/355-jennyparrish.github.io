@@ -256,4 +256,17 @@ section {
     main {
         padding: 1.5rem;
     }
+
+    section {
+        padding: 1rem 1rem;
+    }
+
+    #ingredients, #instructions {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    #ingredients h2, #instructions h2 {
+        font-size: 2rem;
+    }
 }
