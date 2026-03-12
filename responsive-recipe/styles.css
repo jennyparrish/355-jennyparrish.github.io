@@ -155,6 +155,13 @@ section {
     padding: 3rem;
 }
 
+#ingredients h2 {
+    font-size: 2.5rem;
+    color: #d97706;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
 
 
 /* desktop: image top-right, text left with slight overlap */
