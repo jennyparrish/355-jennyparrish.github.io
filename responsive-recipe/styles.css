@@ -100,6 +100,7 @@ main {
     margin: 0 auto 1.5rem;
 }
 
+/* perplexity.ai helped me create a jump button */
 .jump-link {
     display: inline-block;
     background: #28a745;
@@ -110,6 +111,17 @@ main {
     font-weight: 600;
     text-decoration: none;
     transition: background 0.3s;
+}
+
+.jump-link:hover {
+    background: #218838;
+}
+
+#time-info {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-top: 2rem;
 }
 
 /* desktop: image top-right, text left with slight overlap */
