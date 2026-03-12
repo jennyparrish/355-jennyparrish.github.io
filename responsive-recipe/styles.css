@@ -138,12 +138,9 @@ main {
 /* ai helped, but I used the tool in 'Inspect' to customize it */
 #time-list li {
     background: #c6c6c6;
-    padding: .75rem;
-    border-radius: 2px;
-    text-align: center;
-   /* box-shadow: 0 2px 8px rgba(0,0,0,0.1); */
-    border-left: 4px solid #6c757d;
-    transition: transform 0.2s;
+    padding: .2rem;
+    border-radius: 3px;
+    text-align: left;
 }
 
 
