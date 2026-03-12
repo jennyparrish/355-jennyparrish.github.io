@@ -41,8 +41,19 @@ body {
     background-position: center; /* center the image */
     opacity: 0.8;              /* adjust opacity for better text visibility */
     z-index: -2;               /* place the image behind the text */
-}   
+}
 
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3); /* semi-transparent overlay for better text contrast */
+    z-index: -1;               /* place the overlay between the image and the text */
+}
+/*
 header h1 {
     font-family: 'Bonveno', 'Helvetica', 'Franklin Gothic Medium', Arial, sans-serif;
     padding: 20px 15px 20px 15px;
