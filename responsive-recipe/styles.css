@@ -149,6 +149,12 @@ section {
     margin: 0 auto;
 }
 
+#ingredients {
+    background: #fff8f0;
+    margin: 3rem 0;
+    padding: 3rem;
+}
+
 
 
 /* desktop: image top-right, text left with slight overlap */
