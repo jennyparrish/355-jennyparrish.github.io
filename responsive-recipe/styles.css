@@ -178,6 +178,21 @@ section {
     line-height: 1.3;
 }
 
+/* video placeholder css */
+
+#instructions {
+    background: #f0fdf4;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+#instructions h2 {
+    font-size: 2.5rem;
+    color: #059669;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
 
 
 /* desktop: image top-right, text left with slight overlap */
