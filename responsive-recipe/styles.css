@@ -45,7 +45,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.3); /* semi-transparent overlay for better text contrast */
+    background-color: rgba(0, 0, 0, 0.1); /* semi-transparent overlay for better text contrast */
     z-index: -1;               /* place the overlay between the image and the text */
 }
 
