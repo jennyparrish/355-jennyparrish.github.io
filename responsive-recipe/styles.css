@@ -135,6 +135,16 @@ main {
     margin: 0 auto;
 }
 
+#time-list li {
+    background: white;
+    padding: 1.25rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-left: 4px solid #6c757d;
+    transition: transform 0.2s;
+}
+
 
 /* desktop: image top-right, text left with slight overlap */
 @media (min-width: 992px) {
