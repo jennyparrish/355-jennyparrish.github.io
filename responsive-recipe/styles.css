@@ -25,6 +25,7 @@ body {
     overflow: hidden;          /* hide any overflow from the image */
 }
 
+/* perplexity helped me with this */
 .hero::before {
     content: "";
     position: absolute;
@@ -89,6 +90,26 @@ main {
     color: #f8c146;         /* gold color for stars */
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+}
+
+#blurb {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color:black;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+}
+
+.jump-link {
+    display: inline-block;
+    background: #28a745;
+    color: white;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s;
 }
 
 /* desktop: image top-right, text left with slight overlap */
