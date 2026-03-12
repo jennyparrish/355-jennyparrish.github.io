@@ -4,16 +4,27 @@
     padding: 0;
 }
 
+
+
+ <img src="/favorite-recipe/curry.jpg" alt="A bowl of chickpea coconut curry over white rice." width="400">
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+   /* background-color: #f8f8f8;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
 
 }
 
-header {
+.hero {
+    position: relative;
+    height: 50vh;
+    min-height: 400px;          /* fallback for larger content */
+    display: flex;
+    align-items: flex-end;      /* align text to the bottom of the hero section */
+    justify-content: flex-start;     /* align text to the left */
+
     padding: 0;
     text-align: left;
     width: 100%;
